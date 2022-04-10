@@ -2,7 +2,7 @@ import Header from "./header";
 import NavBar from "./nav";
 
 import '../App.css';
-import {importData} from './data'
+import {importData} from './data';
 const Imports = () => {
     return (
         <div>
