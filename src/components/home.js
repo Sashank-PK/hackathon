@@ -7,7 +7,11 @@ import { useDrag } from 'react-dnd';
 import { useDrop } from 'react-dnd';
 import { useState } from "react";
 
+//const [graphText,displayGraph] = useState()
+
 export default function Home() {
+    const drawGraph = ()=>{
+    }
     return (
         <div>
             <div className="row">
@@ -46,7 +50,8 @@ export default function Home() {
 export function DragDropArea({ isDragging, text }) {
     return (
         <DndProvider backend={HTML5Backend}>
-          {/* Here, render a component that uses DND inside it */}
+          {/* Here, render a component that uses DND inside it */
+          }
           <Basket/>
         </DndProvider>
       )
